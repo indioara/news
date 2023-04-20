@@ -1,0 +1,16 @@
+@import url("/src/assets/reset.css");
+@import "variables";
+
+
+
+.container {
+    max-width: 1090px;
+    margin: 0 auto;
+}
+body{
+    background-color: $bg;
+    font-family: "Roboto";
+}
+p,a{
+    color: $text;
+}

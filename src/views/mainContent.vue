@@ -12,11 +12,11 @@
               <interesting></interesting>
             </div>
           </div>
-          <p @click="asa">asdsadasd</p>
-          <world-news></world-news>
           <polit-news></polit-news>
-          <sport-news></sport-news>
+          <world-news></world-news>
           <science></science>
+          <sport-news></sport-news>
+          <p @click="asa">asdsadasd</p>
       </main>
       <my-footer></my-footer>
     </div>

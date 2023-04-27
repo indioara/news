@@ -74,11 +74,11 @@ export default {
                 this.img = elem.enclosure.url
                 this.teg = elem.categories[0]
                 this.date = elem.isoDate
+                console.log(this.news.indexOf(elem))
             }
         });
-        console.log(this.itemNews)
         
-
+        console.log(this.$route)
     },
     computed:{
         ...mapState({

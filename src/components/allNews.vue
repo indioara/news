@@ -4,7 +4,7 @@
         <ul class="all-news__wrap">
             <li class="all-news__item" v-for="item of newsItems.slice(0, countNews)" :key="item">
                 <router-link :to="{name: 'newsItem', params: {newsTitle: item.title}}">
-                        <img :src="item.enclosure.url" alt="">
+                    <img :src="item.enclosure && item.enclosure.url" alt="" onerror="this.src='/assets/images/allNews/1.jpg'">
                     <div class="all-news__about">
                         <p class="all-news__text">{{ item.title }}</p>
                         <div class="all-news__info">

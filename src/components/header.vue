@@ -89,7 +89,8 @@ export default {
                 this.eur = response.data.rates.EUR
                 console.log(response)
             })
-        }
+        },
+        
     },
     computed:{
         setKzt(){
